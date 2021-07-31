@@ -71,6 +71,6 @@ and of course the date. With articleDateExtract (Article Date Extract) we rely o
 
 
 [pypi-url]: https://pypi.python.org/pypi/articleDateExtract
-[pypi-license]: https://img.shields.io/pypi/l/articleDateExtract.svg?style=flat
+[pypi-license]: https://img.shields.io/pypi/l/articleDateExtract.svg
 [pypi-version]: https://img.shields.io/pypi/v/articleDateExtract.svg?style=flat
 [pypi-downloads]: https://img.shields.io/pypi/dm/articleDateExtract.svg?style=flat
