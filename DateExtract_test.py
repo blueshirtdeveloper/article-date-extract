@@ -1,4 +1,4 @@
-from DateExtraction import extractArticlePublishedDate
+from articleDateExtract import extractArticlePublishedDate
 import unittest
 
 
@@ -19,7 +19,6 @@ class TestDateExtraction(unittest.TestCase):
             "05/03/2015": "https://www.reuters.com/article/commerzbank-investigation-usa-idUSL1N0W729420150305",
             "25/08/2017": "https://www.rt.com/business/400883-societe-generale-managers-indiction/",
             "14/08/2018": "https://kyc360.riskscreen.com/news/hsbc-expects-to-pay-1-5-billion-in-fines-over-tax-evasion-money-laundering/",
-            # "23/07/2014": "https://nycourts.gov/reporter//3dseries/2014/2014_02381.htm",
             "24/04/2019": "https://www.lalibre.be/economie/entreprises-startup/2019/04/24/la-banque-degroof-petercam-est-visee-par-une-enquete-de-la-bnb-pour-blanchiment-dargent-RU4K24ZZ5NGWBCCPQMCMJXZABM/",
             "19/02/2016": "https://news.yahoo.com/russias-vimpelcom-pay-835-mn-over-corruption-charges-214513855.html",
             "04/06/2010": "https://www.economywatch.com/uk-fines-jp-morgan-nearly-50-million-for-not-ringfencing-client-money",
